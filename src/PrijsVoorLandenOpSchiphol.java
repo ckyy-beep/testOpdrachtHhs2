@@ -35,6 +35,7 @@ public class PrijsVoorLandenOpSchiphol {
     }
 
     public double checkPrijsVolgensGewichtVanVliegtuig(int vliegtuiGewicht) {
+
         if (vliegtuiGewicht <= 0) {
             return 0;
         } else if (vliegtuiGewicht < 1000) {
